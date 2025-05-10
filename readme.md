@@ -65,7 +65,7 @@ Este tipo de análisis es especialmente útil para **áreas de revenue managemen
 
 ## 🚀 Autoría
 
-Trabajo realizado por **María Renolfi**  
+Trabajo realizado por **Mariana Renolfi**  
 Curso: *Data Science I* - Coderhouse  
 Comisión: 75655  
 Año: 2025
