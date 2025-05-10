@@ -1,11 +1,73 @@
-# Proyecto Final Data Science I
+# 🧠 Proyecto Final - Parte III | Renolfi
 
-## Análisis de reservas de hoteles
+Este repositorio contiene el desarrollo de la Parte III del Proyecto Final del curso **Data Science I (Coderhouse)**.  
+El objetivo fue aplicar un modelo de Machine Learning sobre un dataset de reservas de hoteles, con foco en clasificación binaria: **cancelada vs no cancelada**.
 
-## 📌 Abstract
+---
 
-📊 En este proyecto analizamos un dataset de reservas hoteleras para identificar patrones que puedan estar relacionados con la **cancelación de reservas**. El dataset incluye información sobre el tipo de cliente, duración de estadía, canal de adquisición, tipo de hotel, país de origen, entre otras variables relevantes.
+## 📁 Contenido del repositorio
 
-🎯 El objetivo principal es explorar si existen **factores asociados a una mayor probabilidad de cancelación**. Para ello, se plantean hipótesis sobre la influencia del lead time (días de anticipación), el canal de reserva y el tipo de habitación.
+- `ProyectoParteIII_Renolfi.ipynb`: notebook con el análisis completo, preprocesamiento, selección de variables, entrenamiento de modelos y evaluación.
+- `6_reservas_hoteles.csv`: dataset original utilizado para el análisis.
+- Este archivo `README.md`.
 
-🛠️ El análisis se basa en técnicas de **estadística descriptiva y visualización de datos** mediante gráficos como boxplots, countplots y mapas de calor. Estas herramientas permiten detectar relaciones significativas entre variables categóricas y numéricas, y sentar las bases para análisis más avanzados en futuras etapas.
+---
+
+## 🧪 Objetivo del análisis
+
+El objetivo fue **predecir si una reserva será cancelada o no**, a partir de variables del comportamiento del cliente y características de la reserva.  
+Este tipo de análisis es especialmente útil para **áreas de revenue management y planificación hotelera**.
+
+---
+
+## 🔍 Etapas del análisis
+
+1. **Preprocesamiento de los datos**
+   - Limpieza de valores nulos
+   - Codificación de variables categóricas
+   - Creación de nuevas variables
+
+2. **Selección de características**
+   - Se aplicó `SelectKBest` para reducir la dimensionalidad y conservar solo las variables más relevantes.
+
+3. **Modelado**
+   - Se entrenaron dos modelos de clasificación:
+     - Árbol de Decisión
+     - K-Nearest Neighbors (KNN)
+   - Los modelos fueron evaluados con:
+     - Accuracy
+     - Matriz de Confusión
+     - Precisión, Recall y F1-Score
+
+4. **Evaluación y comparación**
+   - Se comparó el rendimiento de ambos modelos.
+   - Se discutieron ventajas, limitaciones y posibles mejoras.
+
+---
+
+## 📌 Conclusiones
+
+- Ambos modelos alcanzaron niveles razonables de precisión.
+- El **Árbol de Decisión** mostró un buen balance entre interpretabilidad y performance.
+- El modelo podría mejorarse aplicando **ajuste de hiperparámetros** y explorando algoritmos más complejos.
+
+---
+
+## 🛠 Herramientas utilizadas
+
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib, Seaborn
+- Google Colab
+
+---
+
+## 🚀 Autoría
+
+Trabajo realizado por **María Renolfi**  
+Curso: *Data Science I* - Coderhouse  
+Comisión: 75655  
+Año: 2025
+
+---
