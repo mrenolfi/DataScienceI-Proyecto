@@ -1,4 +1,4 @@
-# 🧠 Proyecto Final - Parte III | Renolfi
+# 🧠 Proyecto Final
 
 Este repositorio contiene el desarrollo de la Parte III del Proyecto Final del curso **Data Science I (Coderhouse)**.  
 El objetivo fue aplicar un modelo de Machine Learning sobre un dataset de reservas de hoteles, con foco en clasificación binaria: **cancelada vs no cancelada**.
