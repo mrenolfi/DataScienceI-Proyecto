@@ -55,11 +55,11 @@ Este tipo de análisis es especialmente útil para **áreas de revenue managemen
 
 ## 🛠 Herramientas utilizadas
 
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
-- Google Colab
+- Pandas: 2.2.2
+- Numpy: 2.0.2
+- Scikit-learn: 1.6.1
+- Matplotlib: 3.10.0
+- Seaborn: 0.13.2
 
 ---
 
